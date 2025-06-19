@@ -4,7 +4,7 @@ function clock() {
     const ctx = canvas.getContext('2d');
 
     // SET UP CANVAS
-    ctx.save();
+    ctx.save(); // SAVE THE DEFAULT STATE
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
