@@ -5,7 +5,7 @@ function clock() {
 
     // SET UP CANVAS
     ctx.save(); // SAVE THE DEFAULT STATE
-    ctx.clearRect();
+    ctx.clearRect(0, 0, 500, 500);
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
