@@ -6,6 +6,7 @@ function clock() {
     // SET UP CANVAS
     ctx.save(); // SAVE THE DEFAULT STATE
     ctx.clearRect(0, 0, 500, 500);
+    ctx.translate(250, 250);
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
