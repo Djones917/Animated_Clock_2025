@@ -11,6 +11,7 @@ function clock() {
 
     // DEFAULT STYLES
     ctx.strokStyle = '#000000';
+    ctx.fillStyle = '#f4f4f4';
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
