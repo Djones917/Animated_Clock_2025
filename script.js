@@ -9,6 +9,9 @@ function clock() {
     ctx.translate(250, 250); // PUT 0,0 IN THE MIDDLE
     ctx.rotate(-Math.PI / 2); // ROTATE CLOCK -90DEG
 
+    // DEFAULT STYLES
+    ctx.strokStyle = '#000000';
+
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
 }
