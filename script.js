@@ -6,8 +6,8 @@ function clock() {
     // SET UP CANVAS
     ctx.save(); // SAVE THE DEFAULT STATE
     ctx.clearRect(0, 0, 500, 500);
-    ctx.translate(250, 250);
-    ctx.rotate(-Math.PI / 2);
+    ctx.translate(250, 250); // PUT 0,0 IN THE MIDDLE
+    ctx.rotate(-Math.PI / 2); // ROTATE CLOCK -90DEG
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
