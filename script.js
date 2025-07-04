@@ -13,7 +13,7 @@ function clock() {
     ctx.strokStyle = '#000000';
     ctx.fillStyle = '#f4f4f4';
     ctx.lineWidth = 5;
-    
+    ctx.lineCap = 'round';
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
