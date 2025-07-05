@@ -15,6 +15,10 @@ function clock() {
     ctx.lineWidth = 5;
     ctx.lineCap = 'round';
 
+
+    // DRAW CLOCK
+    ctx.save();
+
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
 }
