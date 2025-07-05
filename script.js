@@ -19,6 +19,8 @@ function clock() {
     // DRAW CLOCK
     ctx.save();
 
+    ctx.restore();
+
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
 }
