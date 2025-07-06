@@ -18,7 +18,7 @@ function clock() {
 
     // DRAW CLOCK
     ctx.save();
-
+    ctx.strokStyle = '#800000'
     ctx.restore();
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
