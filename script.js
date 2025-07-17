@@ -10,7 +10,7 @@ function clock() {
     ctx.rotate(-Math.PI / 2); // ROTATE CLOCK -90DEG
 
     // DEFAULT STYLES
-    ctx.strokStyle = '#000000';
+    ctx.strokeStyle = '#000000';
     ctx.fillStyle = '#f4f4f4';
     ctx.lineWidth = 5;
     ctx.lineCap = 'round';
@@ -18,7 +18,8 @@ function clock() {
 
     // DRAW CLOCK
     ctx.save();
-    ctx.strokStyle = '#800000'
+    ctx.beginPath();
+    ctx.strokeStyle = '#800000'
     ctx.restore();
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
