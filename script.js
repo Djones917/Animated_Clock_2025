@@ -19,6 +19,7 @@ function clock() {
     // DRAW CLOCK
     ctx.save();
     ctx.beginPath();
+    ctx.lineWidth = 14;
     ctx.strokeStyle = '#800000'
     ctx.restore();
 
