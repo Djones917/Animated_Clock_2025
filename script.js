@@ -21,7 +21,7 @@ function clock() {
     ctx.beginPath();
     ctx.lineWidth = 14;
     ctx.strokeStyle = '#800000'
-    ctx.arch();
+    ctx.arch(0, 0, 142, 0, Math.PI * 2, true);
     ctx.restore();
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
