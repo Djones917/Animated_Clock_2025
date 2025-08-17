@@ -23,6 +23,7 @@ function clock() {
     ctx.strokeStyle = '#800000'
     ctx.arc(0, 0, 142, 0, Math.PI * 2, true);
     ctx.stroke();
+    ctx.fill();
     ctx.restore();
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
