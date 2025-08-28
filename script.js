@@ -28,6 +28,8 @@ function clock() {
 
     // CLOCK MIN MARKS
     ctx.save();
+    
+    ctx.restore();
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
