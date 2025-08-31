@@ -29,7 +29,7 @@ function clock() {
     // CLOCK MIN MARKS
     ctx.save();
     ctx.beginPath();
-    ctx.moveTo();
+    ctx.moveTo(0,0);
     ctx.restore();
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
