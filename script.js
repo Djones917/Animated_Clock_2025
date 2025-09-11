@@ -29,8 +29,9 @@ function clock() {
     // CLOCK MIN MARKS
     ctx.save();
     ctx.beginPath();
-    ctx.moveTo(0,0);
+    ctx.moveTo(0, 0);
     ctx.lineTo(0, 0);
+    ctx.stroke();
     ctx.restore();
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
