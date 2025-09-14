@@ -28,8 +28,8 @@ function clock() {
 
     // CLOCK MIN MARKS
     ctx.save();
-    for () {
-        
+    for (let i = 0; i < 12; i++) {
+
     }
     ctx.beginPath();
     ctx.moveTo(100, 0);
