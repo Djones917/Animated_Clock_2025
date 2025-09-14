@@ -28,6 +28,9 @@ function clock() {
 
     // CLOCK MIN MARKS
     ctx.save();
+    for () {
+        
+    }
     ctx.beginPath();
     ctx.moveTo(100, 0);
     ctx.lineTo(120, 0);
