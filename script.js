@@ -29,11 +29,12 @@ function clock() {
     // CLOCK MIN MARKS
     ctx.save();
     for (let i = 0; i < 12; i++) {
-       ctx.beginPath();
-       ctx.moveTo(100, 0);
-       ctx.lineTo(120, 0);
-       ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(100, 0);
+        ctx.lineTo(120, 0);
+        ctx.stroke();
     }
+
     
     ctx.restore();
 
