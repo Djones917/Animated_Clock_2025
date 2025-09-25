@@ -39,6 +39,7 @@ function clock() {
 
     // CLOCK MIN MARKS
     ctx.save();
+    ctx.lineWidth = 4;
     for (let i = 0; i < 12; i++) {
         ctx.beginPath();
         ctx.rotate(Math.PI / 6);
