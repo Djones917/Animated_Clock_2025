@@ -26,6 +26,17 @@ function clock() {
     ctx.fill();
     ctx.restore();
 
+    // CLOCK 12 MARKS
+    ctx.save();
+    for (let i = 0; i < 12; i++) {
+        ctx.beginPath();
+        ctx.rotate(Math.PI / 6);
+        ctx.moveTo(100, 0);
+        ctx.lineTo(120, 0);
+        ctx.stroke();
+    }    
+    ctx.restore();
+
     // CLOCK MIN MARKS
     ctx.save();
     for (let i = 0; i < 12; i++) {
@@ -34,10 +45,9 @@ function clock() {
         ctx.moveTo(100, 0);
         ctx.lineTo(120, 0);
         ctx.stroke();
-    }
-
-    
+    }    
     ctx.restore();
+
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
