@@ -41,11 +41,13 @@ function clock() {
     ctx.save();
     ctx.lineWidth = 4;
     for (let i = 0; i < 60; i++) {
-        ctx.beginPath();
-        ctx.rotate(Math.PI / 30);
-        ctx.moveTo(117, 0);
-        ctx.lineTo(120, 0);
-        ctx.stroke();
+        if (i % 5 !== 0) {
+           ctx.beginPath();          
+           ctx.moveTo(117, 0);
+           ctx.lineTo(120, 0);
+           ctx.stroke();
+        }    
+         ctx.rotate(Math.PI / 30);    
     }    
     ctx.restore();
 
