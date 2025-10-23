@@ -52,7 +52,8 @@ function clock() {
     ctx.restore();
 
     // Get Current Time
-    const hr = now.getHours() % 12;
+    const hr = now.getHours() % 12
+    const min = now.getMinutes();
 
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
