@@ -56,7 +56,7 @@ function clock() {
     const min = now.getMinutes();
     const sec = now.getSeconds();
 
-    console.log(`${hr}: `);
+    console.log(`${hr}: ${min}: `);
 
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
