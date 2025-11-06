@@ -58,6 +58,9 @@ function clock() {
 
     console.log(`${hr}:${min}:${sec}`);
 
+    // Draw Hour Hand
+    
+
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
