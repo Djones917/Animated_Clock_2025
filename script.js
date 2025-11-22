@@ -60,7 +60,7 @@ function clock() {
 
     // Draw Hour Hand
     ctx.save();
-    ctx.rotate((Math.PI / 6) * hr);
+    ctx.rotate((Math.PI / 6) * hr + (Math.PI / 360));
     ctx.restore();
 
 
