@@ -61,6 +61,7 @@ function clock() {
     // Draw Hour Hand
     ctx.save();
     ctx.rotate((Math.PI / 6) * hr + (Math.PI / 360) * min + (Math.PI / 21600) * sec);
+    ctx.strokeStyle = 800000;
     ctx.restore();
 
 
