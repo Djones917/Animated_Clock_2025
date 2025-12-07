@@ -64,6 +64,7 @@ function clock() {
     ctx.strokeStyle = '#800000';
     ctx.lineWidth = 14;
     ctx.beginPath();
+    ctx.moveTo();
     ctx.restore();
 
 
