@@ -63,6 +63,7 @@ function clock() {
     ctx.rotate((Math.PI / 6) * hr + (Math.PI / 360) * min + (Math.PI / 21600) * sec);
     ctx.strokeStyle = '#800000';
     ctx.lineWidth = 14;
+    ctx.beginPath();
     ctx.restore();
 
 
