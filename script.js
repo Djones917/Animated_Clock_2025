@@ -69,9 +69,9 @@ function clock() {
     ctx.stroke();
     ctx.restore();
 
-    // Draw Seconds Hand
+    // Draw Min Hand
     ctx.save();
-    ctx.rotate((Math.PI / 6) * hr + (Math.PI / 360) * min + (Math.PI / 21600) * sec);
+    ctx.rotate((Math.PI / 30) * min + (Math.PI / 1800) * sec);
     ctx.strokeStyle = '#800000';
     ctx.lineWidth = 14;
     ctx.beginPath();
