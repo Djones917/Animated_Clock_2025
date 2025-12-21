@@ -80,6 +80,17 @@ function clock() {
     ctx.stroke();
     ctx.restore();
 
+    // Draw Sec Hand
+    ctx.save();
+    ctx.rotate((sec * Math.PI / 30));
+    ctx.strokeStyle = '#3774f8ff';
+    ctx.lineWidth = 6;
+    ctx.beginPath();
+    ctx.moveTo(-30, 0);
+    ctx.lineTo(100, 0);
+    ctx.stroke();
+    ctx.restore();
+
 
     ctx.restore(); // RESTORE THE DEFAULT STATE
 
