@@ -56,7 +56,7 @@ function clock() {
     const min = now.getMinutes();
     const sec = now.getSeconds();
 
-    console.log(`${hr}:${min}:${sec}`);
+    // console.log(`${hr}:${min}:${sec}`);
 
     // Draw Hour Hand
     ctx.save();
