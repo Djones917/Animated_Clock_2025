@@ -1,4 +1,3 @@
-// Grab elements
 const canvas = document.getElementById('canvas');
 const faceColor = document.getElementById('face-color');
 const borderColor = document.getElementById('border-color');
