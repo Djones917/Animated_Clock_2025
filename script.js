@@ -119,3 +119,5 @@ document.getElementById('save-btn').addEventListener('click', () => {
   link.href = dataURL;
   link.click();
 });
+
+// FINISHED PROJECT
